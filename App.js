@@ -15,8 +15,8 @@ import {store, persistor} from './redux/store'
 
 const MainStack = createStackNavigator(
   {
-    ContactList: ContactListScreen,
-    ContactDetails: ContactDetailsScreen,
+    ContactList: ListScreen,
+    ContactDetails: DetailsScreen,
     AddContact: AddContactScreen,
   },
   {
