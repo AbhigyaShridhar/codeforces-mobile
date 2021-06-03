@@ -13,7 +13,7 @@ import SettingsScreen from './screens/SettingScreen'
 import LoginScreen from './screens/LoginScreen'
 import {store, persistor} from './redux/store'
 
-/*const MainStack = createStackNavigator(
+const MainStack = createStackNavigator(
   {
     ContactList: ContactListScreen,
     ContactDetails: ContactDetailsScreen,
@@ -35,9 +35,9 @@ MainStack.navigationOptions = {
   ),
 }
 
-*/
 
-/*
+
+
 const MainTabs = createBottomTabNavigator(
   {
     //Contacts: MainStack,
@@ -49,7 +49,7 @@ const MainTabs = createBottomTabNavigator(
     },
   }
 )
-*/
+
 
 const MainTabs = createBottomTabNavigator();
 function tabs() {
